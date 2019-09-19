@@ -39,6 +39,7 @@ int main(int argc, char* argv[])
 	compute_parameters(T, M, C, Fe);
 
     printf("Simulating 3D electrohydrodynamics vortices\n");
+    printf("By: Yifei Guan, University of Washington\n");
     printf("      domain size: %ux%ux%u\n",NX,NY,NZ);
     printf("                T: %g\n",*T);
     printf("                M: %g\n",*M);
