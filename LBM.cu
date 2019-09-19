@@ -299,7 +299,7 @@ __global__ void gpu_collide_save(double *f0, double *f1, double *f2, double *h0,
 	double omega_plus = 1.0 / (nu / cs_square / dt + 1.0 / 2.0) / dt;
 	double omega_minus = 1.0 / (V / (nu / cs_square / dt) + 1.0 / 2.0) / dt;
 	double omega_c_minus = 1.0 / (diffu / cs_square / dt + 1.0 / 2.0) / dt;
-	double omega_c_minus = 1.0 / (VC / (diffu / cs_square / dt) + 1.0 / 2.0) / dt;
+	double omega_c_plus = 1.0 / (VC / (diffu / cs_square / dt) + 1.0 / 2.0) / dt;
 
 	unsigned int y = blockIdx.y;
 	unsigned int z = blockIdx.z;
