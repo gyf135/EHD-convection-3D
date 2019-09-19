@@ -1,7 +1,7 @@
 /* This code accompanies
  *   Two relaxation time lattice Boltzmann method coupled to fast Fourier transform Poisson solver: Application to electroconvective flow, Journal of Computational Physics
  *	 https://doi.org/10.1016/j.jcp.2019.07.029
- *	 Three-dimensional Electro-convective Vortices in Cross-flow
+ *   Three-dimensional Electro-convective Vortices in Cross-flow
  *	 https://arxiv.org/abs/1908.03861
  *   Yifei Guan, James Riley, Igor Novosselov
  *	 University of Washington
